@@ -37,6 +37,12 @@ public class RegistrationController {
 
 	}
 	
+	@RequestMapping("/complete-page") 
+	public String completepage() {
+	return "complete-page";
+	
+	}
+	
 	@RequestMapping("/register")
 	public String register() {
 	    return "register";
