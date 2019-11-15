@@ -68,7 +68,7 @@ public class FormInfo {
 
 	@Override
 	public String toString() {
-		return "Thanks for registering " + firstName + " " + lastName + "! /nEmail: " + email + "/nPhone Number: " + phoneNumber;
+		return "Thanks for registering " + firstName + " " + lastName + "! \nEmail: " + email + "\nPhone Number: " + phoneNumber;
 	}
 	
 	
